@@ -22,6 +22,14 @@ public class SearchController {
         return "search";
     }
 
+    @RequestMapping(value = "results")
+    public String search(String searchType, String searchTerm) {
+        if (searchType == "All") {
+            
+        }
+        return "search";
+    }
+
     // TODO #1 - Create handler to process search request and display results
 
 }
